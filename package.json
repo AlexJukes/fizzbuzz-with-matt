@@ -1,0 +1,19 @@
+{
+  "name": "fizzbuzz",
+  "version": "1.0.0",
+  "description": "Fizzbuzz pairing exercise",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "tsc": "node node_modules/typescript",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^3.9.7"
+  },
+  "devDependencies": {
+    "jest": "^26.1.0"
+  }
+}

@@ -10,5 +10,9 @@ describe("fizzbuzz", () => {
     it("replaces multiples of 5 with 'buzz'", () => {
       expect(fizzbuzz(5)).toBe('buzz')
       expect(fizzbuzz(10)).toBe('buzz')
+    });
+    it("replaces numbers that are multiples of 5 and 3 with 'fizzbuzz'", () => {
+      expect(fizzbuzz(15)).toBe('fizzbuzz');
+      expect(fizzbuzz(30)).toBe('fizzbuzz');
     })
 })

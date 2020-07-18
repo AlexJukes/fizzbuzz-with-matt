@@ -12,3 +12,8 @@ fizzbuzz(6) // Fizz
 ...
 fizzbuzz(15) // Fizzbuzz
 ```
+
+## TODO
+
+- Write program listing numbers 1-100 and printing 'fizz', 'buzz' or 'fuzzbuzz' correctly
+- Convert to TypeScript
